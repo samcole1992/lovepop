@@ -2,15 +2,15 @@
 
 This project is bootstrapped with rails new lovepop --api
 
-To start the project:
+  To start the project:
+    
+    rake db:create
 
-  rake db:create
-  
-  rake db:migrate
-  
-  bundle
-  
-  rails s
+    rake db:migrate
+
+    bundle
+
+    rails s
   
  To test:
  
