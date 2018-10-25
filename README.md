@@ -8,6 +8,10 @@ To start the project:
   rake db:migrate
   bundle
   rails s
+  
+ To test:
+ 
+    rake
 
 At this stage there is ONE route
 
