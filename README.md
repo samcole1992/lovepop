@@ -56,3 +56,7 @@ The response will be a JSON object containing suggestions.
 Any suggestions contain the corresponding line item, upsell and applicable discount
 
 Additions could include adding token verification for authorization, building out the routes to allow for building customers and their carts.
+
+If I was going to make this a customer facing product I would do it in React
+
+
