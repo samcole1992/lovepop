@@ -60,6 +60,8 @@ GEM
     factory_girl_rails (4.8.0)
       factory_girl (~> 4.8.0)
       railties (>= 3.0.0)
+    fast_jsonapi (1.4)
+      activesupport (>= 4.2)
     ffi (1.9.25)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
@@ -195,10 +197,12 @@ PLATFORMS
 DEPENDENCIES
   capybara
   factory_girl_rails
+  fast_jsonapi
   jquery-rails
   launchy
   listen (~> 3.0.5)
   pg (~> 0.18)
+  pry
   pry-rails
   puma (~> 3.0)
   rails (~> 5.0.0)

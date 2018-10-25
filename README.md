@@ -1,24 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is bootstrapped with rails new lovepop --api
 
-Things you may want to cover:
+To start the project:
 
-* Ruby version
+  rake db:create
+  rake db:migrate
+  bundle
+  rails s
 
-* System dependencies
+At this stage there is ONE route
 
-* Configuration
+suggestions POST /suggestions(.:format) suggestions#create
 
-* Database creation
+This POST takes a JSON input requiring a customer and a cart
 
-* Database initialization
+The response will be a JSON object containing suggestions.
 
-* How to run the test suite
+Any suggestions contain the corresponding line item, upsell and applicable discount
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Additions could include adding token verification for authorization, building out the routes to allow for building customers and their carts.
